@@ -1,0 +1,85 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	background-color: var(--background-color);
+	color: white;
+	padding: 100px 5%;
+	border-top: 1px dotted var(--color-2);
+  animation-fill-mode: backwards;
+
+	@media screen and (max-width: 1400px){
+		padding: 100px 5%;
+	}
+	@media screen and (max-width: 1000px){
+		padding: 100px 5%;
+	}
+	@media screen and (max-width: 750){
+		padding: 100px 10px;
+	}
+  
+  h3 {
+    animation-fill-mode: backwards !important;
+    padding-top: 35px;
+    text-align: center;
+  }
+}
+form {
+   animation-fill-mode: backwards !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: var(--main-font);
+  width: calc(100vw - 50px);
+  align-items: center;
+  input {
+    font-size: 1.1rem;
+    color: white;
+    background-color: var(--fourth-background-color);
+    border: none;
+    margin: 2px;
+    width: 500px;
+    animation-fill-mode: backwards !important;
+    @media screen and (max-width: 600px){
+      width: calc(100% - 20px);
+    }
+    padding: 10px;
+  }
+  textarea {
+    font-size: 1.2rem;
+    color: white;
+    background-color: var(--fourth-background-color);
+    border: none;
+    margin: 2px;
+    width: 500px;
+    animation-fill-mode: backwards !important;
+    @media screen and (max-width: 600px){
+      width: calc(100% - 20px);
+    }
+    padding: 10px;
+    resize: none;
+    font-size: 1.1rem;
+  }
+
+  .submitWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    @media screen and (max-width: 600px){
+      width: calc(100%);
+    }
+  }
+
+  .submit {
+    max-width: 100px;
+    cursor: pointer;
+    align-self: flex-end;
+    border: 1px solid white;
+    background-color: transparent;
+  }
+}
