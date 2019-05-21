@@ -23,6 +23,7 @@
   h3 {
     animation-fill-mode: backwards !important;
     padding-top: 35px;
+    margin-bottom: 0px;
     text-align: center;
   }
 }
@@ -33,7 +34,6 @@ form {
 .form {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
   font-family: var(--main-font);
   width: calc(100vw - 50px);
   align-items: center;
@@ -82,4 +82,11 @@ form {
     border: 1px solid white;
     background-color: transparent;
   }
+}
+
+.message {
+  visibility: hidden;
+  margin: 0px;
+  padding: 0px;
+  font-family: var(--main-font);
 }
