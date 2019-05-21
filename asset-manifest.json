@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.601e2ca3.chunk.css",
+    "main.js": "/static/js/main.b61c0437.chunk.js",
+    "main.js.map": "/static/js/main.b61c0437.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.89666679.chunk.css": "/static/css/2.89666679.chunk.css",
+    "static/js/2.21062914.chunk.js": "/static/js/2.21062914.chunk.js",
+    "static/js/2.21062914.chunk.js.map": "/static/js/2.21062914.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.93c80eb9f74acb1f3c51524c9355b80b.js": "/precache-manifest.93c80eb9f74acb1f3c51524c9355b80b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.89666679.chunk.css.map": "/static/css/2.89666679.chunk.css.map",
+    "static/css/main.601e2ca3.chunk.css.map": "/static/css/main.601e2ca3.chunk.css.map",
+    "static/media/backgroundGradient.png": "/static/media/backgroundGradient.735eaaa7.png",
+    "static/media/binance.jpg": "/static/media/binance.88f7464d.jpg",
+    "static/media/blockchain_path.jpg": "/static/media/blockchain_path.c3611e73.jpg",
+    "static/media/faceFinder.png": "/static/media/faceFinder.cf04e207.png",
+    "static/media/faceFinder2.png": "/static/media/faceFinder2.3e115ad4.png",
+    "static/media/faceFinder3.jpeg": "/static/media/faceFinder3.237fcc4d.jpeg",
+    "static/media/macd.png": "/static/media/macd.8d006a45.png",
+    "static/media/macd2.gif": "/static/media/macd2.2adb4e53.gif",
+    "static/media/pacman.jpg": "/static/media/pacman.2c6c380e.jpg",
+    "static/media/profilepic-circle.png": "/static/media/profilepic-circle.7dc50de2.png",
+    "static/media/profilepic.jpg": "/static/media/profilepic.ea875326.jpg",
+    "static/media/studcoin.png": "/static/media/studcoin.77df835c.png",
+    "static/media/studcoin2.png": "/static/media/studcoin2.f845320a.png"
+  }
+}
