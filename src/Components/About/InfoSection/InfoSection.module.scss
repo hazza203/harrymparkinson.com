@@ -1,11 +1,15 @@
 .container {
 	margin: 0px 10px;
+
+	img {
+		box-shadow: 1px 1px 10px var(--color-1);
+		border-radius: 100px;
+	}
 	@media screen and (max-width: 800px){
 		width: 40%;
 		margin: 0px 2.5%;
-
-
 	}
+
 	@media screen and (max-width: 500px){
 		img {
 			width: 80px;

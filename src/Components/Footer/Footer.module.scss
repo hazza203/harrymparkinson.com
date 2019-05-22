@@ -23,6 +23,7 @@
 		background-color: var(--color-2);
 		padding: 10px;
 		margin: 18px;
+		border-radius: 50px;
 		box-shadow: 1px 1px 15px var(--color-1);
 		img {
 			vertical-align: middle;
@@ -30,4 +31,10 @@
 			margin: 0 auto;
 		}
 	}
+	span:hover {
+		box-shadow: 1px 1px 15px var(--color-2);
+		background-color: var(--color-1);
+	}
 }
+
+

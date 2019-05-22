@@ -16,13 +16,13 @@ const Header = (props) => {
 				</Fade>
 				<Fade right duration={1000} delay={200} fraction={1}>
 					<div className={headerStyles.imgDiv}>
-							<img src={pLine} alt="Pink Line"/>	
+							<img src={pLine} style={{boxShadow: '2px 2px 10px var(--color-2)'}} alt="Pink Line"/>	
 					</div>
 				</Fade>
 				<br/>
 				<Fade left duration={1000} delay={400} fraction={1}>
-					<div className={headerStyles.imgDiv}>
-						<img src={gLine} alt="Green line"/>	
+					<div className={headerStyles.imgDiv} >
+						<img src={gLine} style={{boxShadow: '2px 2px 10px var(--color-1)'}} alt="Green line"/>	
 					</div>
 					
 				</Fade>

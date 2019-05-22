@@ -93,7 +93,14 @@ form {
     align-self: flex-end;
     border: 1px solid white;
     background-color: transparent;
+    transition: all 0.6s;
   }
+}
+
+.submit:hover{
+  color: var(--fourth-background-color);
+  background-color: white;
+  border-color: var(--fourth-background-color)
 }
 
 .message {
