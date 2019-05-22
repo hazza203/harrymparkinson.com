@@ -1,4 +1,6 @@
 .container {
+	position: relative;
+	z-index: 1;
 	height: 250px;
 	background-color: var(--fourth-background-color);
 	h3{

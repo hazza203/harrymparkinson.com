@@ -82,7 +82,7 @@ class Contact extends React.Component {
 					<h3>Want to get in touch or work together?</h3>
 				</Fade>
 				<h3 className={contactStyles.message} style={this.state.messageStyle}>{this.state.message}</h3>
-				<Zoom delay={1000} fraction={0.4}>
+				<Zoom fraction={0.4}>
 					<form method='post' action="https://harry-parkinson.prod.with-datafire.io/contact" onSubmit={ this.formSubmit } >
 						<div className={contactStyles.form}>
 							<input name="name" id="nameInput" type="text" placeholder="Your name"/>

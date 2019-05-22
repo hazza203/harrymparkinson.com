@@ -11,9 +11,10 @@ class Nav extends React.Component {
 	  	width: 0, 
 	  	height: 0,
 			fixed: { 
-				top: 0,
-				position: 'fixed',
-				width: '100%'
+				top: '0px',
+				position: 'sticky',
+				width: '100%',
+				zIndex: 999
 			},
 			showMenu: {
 				'height': '0px'
@@ -47,10 +48,10 @@ class Nav extends React.Component {
 	render() {
 		const {width} = this.state
 		return (
-			<div>
+			<div className={width < 600 ? navStyles.smallMenu : navStyles.nav} style={this.props.fixed ? this.state.fixed : null}>
 			{
 				width < 600 ?
-					<nav className={navStyles.smallMenu} style={this.props.fixed ? this.state.fixed : null} id='navbar'>
+					<nav id='navbar'>
 						<div className={navStyles.wrapper}>
 							<img className={navStyles.menuImg} src={menuImg} alt="Menu icon" onClick={this.onClick}/>
 						</div>	
@@ -62,12 +63,10 @@ class Nav extends React.Component {
 									<li className={navStyles.hiddenItem}> <Link activeClass={navStyles.active} to="portfolioSection" spy={true} smooth={true} offset={this.props.fixed ? 0 : -180} duration= {500} onClick={this.onClick}>Portfolio</Link> </li>
 									<li className={navStyles.hiddenItem}> <Link activeClass={navStyles.active} to="contactSection" spy={true} smooth={true} offset={this.props.fixed ? 0 : -180} duration= {500} onClick={this.onClick}>Contact</Link> </li>
 								</ul>
-							</div>
-							
-						
+							</div>	
 					</nav>
 					:
-					<nav className={navStyles.nav} style={this.props.fixed ? this.state.fixed : null} id='navbar'>	
+					<nav  id='navbar'>	
 						<ul className={navStyles.navItems}>
 							<li className={navStyles.navItem}> <Link activeClass={navStyles.active} to="homeSection" spy={true} smooth={true} offset={0} duration= {500}>Home</Link> </li>
 							<li className={navStyles.navItem}> <Link activeClass={navStyles.active} to="aboutSection" spy={true} smooth={true} offset={1} duration= {500}>About</Link> </li>
