@@ -15,7 +15,7 @@ import aboutStyles from './About.module.scss'
 const About = (props) => {
 
 	return (
-		<div id={props.id} className={aboutStyles.container}>
+		<div id={props.id} className={aboutStyles.container} style={props.fixed ? {paddingTop: "162px"} : null}>
 			<Header name={'ABOUT'} />
 
 			<div className={aboutStyles.traits}>

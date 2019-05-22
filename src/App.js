@@ -51,7 +51,7 @@ class App extends React.Component {
 	        params={particleOptions}/>
 	      <Welcome id='homeSection'/>
 	      <Nav fixed={this.state.fixed}/>
-	      <About id='aboutSection'fixed={this.state.fixed}/>
+	      <About id='aboutSection' fixed={this.state.fixed}/>
 	      <Portfolio id='portfolioSection' fixed={this.state.fixed}/>
 	      <Contact id='contactSection' />
 				<Footer />
