@@ -54,14 +54,9 @@
   display: inline-block;
   height: 100%;
   width: 100%;
-  @media screen and (max-width: 500px){
-    padding: 5px 15px;
-    padding-left: 30px;
-    width: 165px;
-  }
+  white-space: nowrap;
   @media screen and (max-width: 300px){
     padding: 5px 15px;
-    width: 123px;
   }
 }
 

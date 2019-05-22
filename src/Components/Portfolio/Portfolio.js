@@ -13,7 +13,7 @@ class Portfolio extends React.Component {
 		super(props)
 		this.state = {
 			fixed: {
-				paddingTop: '160px'
+				paddingTop: '100px'
 			},
 			ALL: true,
 			JAVA: false,
@@ -55,7 +55,7 @@ class Portfolio extends React.Component {
 						<div id="JAVASCRIPT" className={`${portfolioStyles.selector} ${this.state.JAVASCRIPT ? portfolioStyles.selectorActive : null}`}  onClick={this.onClick}>JAVASCRIPT</div>
 					</div>
 				</Fade>
-				<Fade bottom fraction={0.2}>
+				<Fade bottom fraction={0.1}>
 					<div className={portfolioStyles.projects}>
 						{
 							

@@ -82,6 +82,9 @@
 	background-color: var(--secondary-background-color);
 	z-index: 5;
 	transition: all 0.5s;
+	ul {
+		margin: 14px 0px;
+	}
 }
 
 .hiddenItem{

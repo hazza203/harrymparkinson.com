@@ -36,12 +36,12 @@ const About = (props) => {
 				"Develop UI's which are easy to use, intuitive and display information in a neat and interesting style."/>
 			</div>
 			<div className={aboutStyles.info}>
-				<Fade left duration={1000} fraction={0.7}>
+				<Fade left duration={1000} fraction={0.5}>
 					<div className={aboutStyles.personal}>	
 					 <Bio/>
 					</div>
 				</Fade>
-				<Fade right duration={1500} fraction={0.7}>
+				<Fade right duration={1500} fraction={0.5}>
 					<div className={aboutStyles.skills}>
 						<SkillBar name={"Javascript"} value={{width:'80%'}} remainder={{width:'20%'}} percentage={"80%"}/>
 						<SkillBar name={"Node.js"} value={{width:'70%'}} remainder={{width:'30%'}} percentage={"70%"}/>

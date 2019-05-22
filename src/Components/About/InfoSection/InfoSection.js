@@ -2,10 +2,12 @@ import React from 'react'
 import Flip from 'react-reveal/Flip'
 import Fade from 'react-reveal/Fade'
 
+import infoStyles from './InfoSection.module.scss'
+
 const InfoSection = (props) => {
 
 	return (
-		<div>
+		<div className={infoStyles.container}>
 			<Flip left duration={1500} fraction={1}>
 				<img src={props.img} alt={props.imgAlt}/>
 			</Flip>
