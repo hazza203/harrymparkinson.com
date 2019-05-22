@@ -14,6 +14,7 @@ class Welcome extends React.Component {
 		this.handleResize = this.handleResize.bind(this)
 		// We execute the same script as before
 	  document.documentElement.style.setProperty('--vh', `${this.state.vh * 0.01}px`);
+	  document.documentElement.style.setProperty('--vw', `${this.state.vw}px`);
 	}
 	
 	componentDidMount() {
@@ -31,6 +32,7 @@ class Welcome extends React.Component {
 				this.setState({vh: window.innerHeight})
 				this.setState({vw: window.innerWidth})
 				document.documentElement.style.setProperty('--vh', `${this.state.vh * 0.01}px`);
+				document.documentElement.style.setProperty('--vw', `${this.state.vw}px`);
 			}
 	}
 
