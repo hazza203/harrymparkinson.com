@@ -55,7 +55,7 @@ class Portfolio extends React.Component {
 						<div id="JAVASCRIPT" className={`${portfolioStyles.selector} ${this.state.JAVASCRIPT ? portfolioStyles.selectorActive : null}`}  onClick={this.onClick}>JAVASCRIPT</div>
 					</div>
 				</Fade>
-				<Fade bottom fraction={0.1}>
+				<Fade bottom fraction={0.15}>
 					<div className={portfolioStyles.projects}>
 						{
 							

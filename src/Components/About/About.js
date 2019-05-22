@@ -14,12 +14,8 @@ import aboutStyles from './About.module.scss'
  
 const About = (props) => {
 
-	const fixed = {
-		paddingTop: '162.99px'
-	}
-
 	return (
-		<div id={props.id} className={aboutStyles.container} style={props.fixed ? fixed : null}>
+		<div id={props.id} className={aboutStyles.container}>
 			<Header name={'ABOUT'} />
 
 			<div className={aboutStyles.traits}>
@@ -41,7 +37,7 @@ const About = (props) => {
 					 <Bio/>
 					</div>
 				</Fade>
-				<Fade right duration={1500} fraction={0.5}>
+				<Fade right duration={1000} fraction={0.5}>
 					<div className={aboutStyles.skills}>
 						<SkillBar name={"Javascript"} value={{width:'80%'}} remainder={{width:'20%'}} percentage={"80%"}/>
 						<SkillBar name={"Node.js"} value={{width:'70%'}} remainder={{width:'30%'}} percentage={"70%"}/>

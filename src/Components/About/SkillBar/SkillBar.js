@@ -9,7 +9,7 @@ const SkillBar = (props) => {
 			{props.name}
 			</div>
 			<div className={skillStyles.fillBar}>
-				<Fade left delay={800} fraction={0}>
+				<Fade left delay={600} fraction={0}>
 					<div className={skillStyles.value} style={props.value}>
 						<div></div>
 					</div>
