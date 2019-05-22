@@ -28,9 +28,7 @@ class Welcome extends React.Component {
 		// We execute the same script as before
 			if(this.state.vw !== window.innerWidth){
 				console.log(window.innerWidth)
-				this.setState({vh: window.innerHeight})
-				this.setState({vw: window.innerWidth})
-				document.documentElement.style.setProperty('--vh', `${this.state.vh * 0.01}px`);
+				
 			}
 	}
 
