@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.743ece5a.chunk.css",
+    "main.css": "/static/css/main.2ac8f530.chunk.css",
     "main.js": "/static/js/main.cd29b51b.chunk.js",
     "main.js.map": "/static/js/main.cd29b51b.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -9,10 +9,10 @@
     "static/js/2.5aebfc44.chunk.js": "/static/js/2.5aebfc44.chunk.js",
     "static/js/2.5aebfc44.chunk.js.map": "/static/js/2.5aebfc44.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ebe95d81d3a4b9cf8677f1131b9bdb63.js": "/precache-manifest.ebe95d81d3a4b9cf8677f1131b9bdb63.js",
+    "precache-manifest.c9468bb045ddd36febdaf300fbbffb0a.js": "/precache-manifest.c9468bb045ddd36febdaf300fbbffb0a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.89666679.chunk.css.map": "/static/css/2.89666679.chunk.css.map",
-    "static/css/main.743ece5a.chunk.css.map": "/static/css/main.743ece5a.chunk.css.map",
+    "static/css/main.2ac8f530.chunk.css.map": "/static/css/main.2ac8f530.chunk.css.map",
     "static/media/backgroundGradient.png": "/static/media/backgroundGradient.735eaaa7.png",
     "static/media/binance.jpg": "/static/media/binance.88f7464d.jpg",
     "static/media/blockchain_path.jpg": "/static/media/blockchain_path.c3611e73.jpg",
