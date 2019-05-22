@@ -7,10 +7,13 @@ class Welcome extends React.Component {
 
 	constructor(props) {
 		super(props)
+		this.state = {
+			vh: window.innerHeight, 
+			vw: window.innerWidth
+		}
 		this.handleResize = this.handleResize.bind(this)
 		// We execute the same script as before
-	  let vh = window.innerHeight * 0.01;
-	  document.documentElement.style.setProperty('--vh', `${vh}px`);
+	  document.documentElement.style.setProperty('--vh', `${this.state.vh * 0.01}px`);
 	}
 	
 	componentDidMount() {
@@ -23,8 +26,11 @@ class Welcome extends React.Component {
 
 	handleResize(){
 		// We execute the same script as before
-		  let vh = window.innerHeight * 0.01;
-		  document.documentElement.style.setProperty('--vh', `${vh}px`);
+			if(this.state.vw !== window.innerWidth){
+				this.setState({vh: window.innerHeight})
+				this.setState({vw: window.innerWidth})
+				document.documentElement.style.setProperty('--vh', `${this.state.vh * 0.01}px`);
+			}
 	}
 
 	render() {
