@@ -12,7 +12,7 @@ class Nav extends React.Component {
 	  	height: 0,
 			fixed: { 
 				top: '0px',
-				position: 'sticky',
+				position: 'fixed',
 				width: '100%',
 				zIndex: 999
 			},
