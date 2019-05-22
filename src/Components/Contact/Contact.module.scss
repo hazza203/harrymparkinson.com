@@ -8,7 +8,8 @@
 	color: white;
 	padding: 100px 5%;
 	border-top: 1px dotted var(--color-2);
-  animation-fill-mode: backwards;
+  animation-fill-mode: backwards !important;
+  -webkit-animation-fill-mode: backwards !important;
 
 	@media screen and (max-width: 1400px){
     padding: 100px 10%;
@@ -27,6 +28,7 @@
   
   h3 {
     animation-fill-mode: backwards !important;
+    -webkit-animation-fill-mode: backwards !important;
     padding-top: 35px;
     margin-bottom: 0px;
     text-align: center;
@@ -34,6 +36,7 @@
 }
 form {
    animation-fill-mode: backwards !important;
+   -webkit-animation-fill-mode: backwards !important;
 }
 
 .form {
@@ -50,6 +53,7 @@ form {
     margin: 2px;
     width: 500px;
     animation-fill-mode: backwards !important;
+    -webkit-animation-fill-mode: backwards !important;
     @media screen and (max-width: 600px){
       width: calc(100% - 20px);
     }
@@ -63,6 +67,7 @@ form {
     margin: 2px;
     width: 500px;
     animation-fill-mode: backwards !important;
+    -webkit-animation-fill-mode: backwards !important;
     @media screen and (max-width: 600px){
       width: calc(100% - 20px);
     }

@@ -227,16 +227,16 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 10;
+	z-index: 999;
 	height: 100%;
 	width: 100%;
 	background: white;
 	background: rgba(255,255,255,0.2); 
 	opacity: 0;
-	margin-top: 60px;
 	text-align: center;
 	transition: all 0.4s;
 	animation: fadeOpacity 0.4s;
+	transition: all 1s;
 }
 
 @keyframes fadeOpacity {
@@ -303,8 +303,8 @@
 	}
 
 	@media screen and (max-height: 700px){
-		height: calc(100% - 61px);	
-		margin-top: 62px;
+		height: calc(100% - 62px);
+		margin-top: 0;
 	}
 	@media screen and (max-width: 800px){
 		width: 100%;

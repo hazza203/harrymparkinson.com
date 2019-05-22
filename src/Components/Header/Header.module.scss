@@ -2,6 +2,7 @@
 	width: 100%;
 	text-align: center;
 	h1 {
+		animation-fill-mode: backwards !important;
 		font-size: 2.5rem;
 		margin-bottom: 0px;
 		color: var(--color-1);

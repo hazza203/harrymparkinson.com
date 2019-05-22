@@ -90,7 +90,7 @@ class Project extends React.Component {
  			opacity: 0
  		}
  		this.state.showPreview ? styles.opacity = 1 : styles.opacity = 0
- 		this.state.fixed ? styles.marginTop = '60px' : styles.marginTop= '0px'
+ 		this.props.fixed ? styles.marginTop = '62px' : styles.marginTop= '0px'
 
  		return styles
  	}
