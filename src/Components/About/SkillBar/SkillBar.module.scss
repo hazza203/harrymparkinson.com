@@ -33,7 +33,7 @@
 	font-size: 0.8em;
 
 	@media screen and (max-width: 500px){
-		width: 64px;
+		width: 70px;
 		font-size: 0.6em;
 	}
 }
@@ -43,6 +43,8 @@
 	background-color: var(--color-1);
 	border-right: none;
 	overflow: hidden;
+	border-radius: 0px 15px 15px 0px; 
+	box-shadow: 2px 1px 15px var(--color-1);
 }
 
 .remainder {
