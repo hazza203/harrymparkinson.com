@@ -28,13 +28,6 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	text-align: center;
-	p{
-		padding: 0px 40px;
-		@media screen and (max-width: 500px){
-			padding: 0px;
-			font-size: 0.6rem;
-		}
-	}
 
 	@media screen and (max-width: 500px){
 		margin-top: 50px;

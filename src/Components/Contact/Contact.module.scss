@@ -34,6 +34,7 @@
     padding-top: 35px;
     margin-bottom: 0px;
     text-align: center;
+    
   }
 }
 form {
@@ -48,7 +49,7 @@ form {
   width: calc(100vw - 50px);
   align-items: center;
   input {
-    font-size: 1.1rem;
+    font-size: 1.1em;
     color: white;
     background-color: var(--fourth-background-color);
     border: none;
@@ -62,7 +63,7 @@ form {
     padding: 10px;
   }
   textarea {
-    font-size: 1.2rem;
+    font-size: 1.4em;
     color: white;
     background-color: var(--fourth-background-color);
     border: none;
@@ -75,7 +76,6 @@ form {
     }
     padding: 10px;
     resize: none;
-    font-size: 1.1rem;
   }
 
   .submitWrapper {

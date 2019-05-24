@@ -4,6 +4,10 @@
 	justify-content: center;
 	height: 100vh;
 	height: calc(var(--vh, 1vh) * 100);
+
+  font-family: var(--header-font);
+  font-size: 0.8em;
+
 }
 
 .wrapper {
@@ -18,21 +22,19 @@
 
 .button {
 	border: 2px solid white;
-	
 	color: white;
-	font-size: 1.5rem;
-	font-family: var(--main-font);
+	font-size: 1.5em;
 	display: table;
 	margin: 0 auto;
 	margin-top: 50px;
   cursor: pointer;
 
   @media screen and (max-width: 500px){
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 
   @media screen and (max-width: 300px){
-    font-size: 0.8rem;
+    font-size: 0.8em;
   }
 
 	img {
@@ -41,7 +43,7 @@
 		padding-bottom: 4px;
 		margin-left: 10px;
 		
-	   -webkit-transition: -webkit-transform .4s ease-in-out;
+    -webkit-transition: -webkit-transform .4s ease-in-out;
 	  transition: transform .4s ease-in-out;
 	}
   @media screen and (max-width: 500px){
@@ -73,31 +75,32 @@
 
 .csstyping {
 	text-align: left;
-  border-right: .15em solid var(--color-1);
+  border-right: .15em solid var(--color-2);
 	color: white;
-	font-family: var(--main-font);
-	font-size: 2.5rem;
+	font-size: 2.35em;
 	font-weight: 400;
   white-space: nowrap;
   overflow: hidden;
+  color: #1ec503;
 
   @media screen and (max-width: 750px){
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   @media screen and (max-width: 600px){
-  	font-size: 1.2rem;
+  	font-size: 1.6em;
   }
 
-  @media screen and (max-width: 300px){
-  	font-size: 0.8rem;
+  @media screen and (max-width: 400px){
+  	font-size: 1.2em;
   }
 }
 
 .csstyping1 {
+
 	text-align: left;
 	display: inline-block;
-  width: 3.3em;
+  width: 4.6em;
   margin-bottom: 0px;
   -webkit-animation: type 0.7s steps(40, end),  blink .18s step-end infinite alternate;
   animation: type 0.7s steps(40, end),  blink .18s step-end infinite alternate;
@@ -107,7 +110,7 @@
 
 .csstyping2 {
 	text-align: left;
-  width: 10.5em;
+  width: 14.9em;
   display: inline-block;
   margin-bottom: 0px;
   opacity: 0;
@@ -123,7 +126,7 @@
 	text-align: left;
 	display: block;
 	margin-top: 0px;
-  width: 13.8em;
+  width: 18.2em;
   opacity: 0;
   -webkit-animation: type3 3s steps(40, end), blink .35s step-end infinite alternate;
   animation: type3 3s steps(40, end), blink .35s step-end infinite alternate;

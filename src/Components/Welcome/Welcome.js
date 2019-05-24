@@ -40,9 +40,9 @@ class Welcome extends React.Component {
 		return (
 			<div id={this.props.id} className={welcomeStyles.container}>
 				<div className={welcomeStyles.wrapper}>
-					<h1 className={`${welcomeStyles.csstyping} ${welcomeStyles.csstyping1}`}> Hello, </h1> 
-					<h1 className={`${welcomeStyles.csstyping} ${welcomeStyles.csstyping2}`}> I'm Harry Parkinson.</h1>
-					<h1 className={`${welcomeStyles.csstyping} ${welcomeStyles.csstyping3}`}> A software / web developer. </h1>	
+					<h1 className={`${welcomeStyles.csstyping} ${welcomeStyles.csstyping1}`}>HELLO. </h1> 
+					<h1 className={`${welcomeStyles.csstyping} ${welcomeStyles.csstyping2}`}> I'M HARRY PARKINSON.</h1>
+					<h1 className={`${welcomeStyles.csstyping} ${welcomeStyles.csstyping3}`}> SOFTWARE / WEB DEVELOPER. </h1>	
 					<div className={welcomeStyles.buttonWrapper}>
 					<div className={welcomeStyles.button}>
 					 <Link className={welcomeStyles.link} to="aboutSection" spy={true} smooth={true}offset={0} duration= {500}>

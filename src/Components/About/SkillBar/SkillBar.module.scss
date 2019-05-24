@@ -8,7 +8,6 @@
 	box-shadow: 1px 1px 10px var(--color-2);
 
 	@media screen and (max-width: 500px){
-		font-size: 0.6rem;
 		margin: 10px 0px;
 	}
 	
@@ -27,10 +26,15 @@
 	border: 3px solid var(--color-2);
 	border-right: none;
 	padding: 5px;
+	padding-top: 5px;
 	width: 80px;
+	font-family: var(--header-font);
+	padding-top: 8px;
+	font-size: 0.8em;
 
 	@media screen and (max-width: 500px){
-		width: 60px;
+		width: 64px;
+		font-size: 0.6em;
 	}
 }
 
@@ -45,5 +49,10 @@
 	text-align: right;
 	padding: 5px;
 	border-left: none;
-
+	font-family: var(--header-font);
+	padding-top: 8px;
+	font-size: 0.8em;
+	@media screen and (max-width: 500px){
+		font-size: 0.7em;
+	}
 }
