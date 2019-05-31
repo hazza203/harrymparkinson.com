@@ -49,8 +49,8 @@ export const projects = {
 		language: "React. js + Node. js",
 		subtitle: "Machine Learning",
 		description: "WebApp developed in React. js and Node. js which uses the Clarifai image face recognition API to display a box around a face that has been matched and handles user login, validation and authentication.",
-		link: "https://hazza203.github.io/360Deg_CSS_Gradient_Generator/",
-		github: "https://github.com/hazza203/360Deg_CSS_Gradient_Generator",
+		link: "https://get-yo-face.herokuapp.com/",
+		github: "https://github.com/hazza203/facial-recognition-brain",
 		images: ["faceFinder.png", "faceFinder2.png", "faceFinder3.jpeg"]
 	}
 }
