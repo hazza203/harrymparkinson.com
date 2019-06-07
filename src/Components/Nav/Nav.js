@@ -39,7 +39,7 @@ class Nav extends React.Component {
 
 	onClick(){
 		if(this.state.showMenu.height === '0px'){
-			this.setState({showMenu: {'height': '210px'}})
+			this.setState({showMenu: {'height': '250px'}})
 		} else {
 			this.setState({showMenu: {'height': '0px'}})
 		}
@@ -62,7 +62,7 @@ class Nav extends React.Component {
 									<li className={navStyles.hiddenItem}> <Link activeClass={navStyles.active} to="portfolioSection" spy={true} smooth={true} offset={this.props.fixed ? 0 : -180} duration= {500} onClick={this.onClick}>Portfolio</Link> </li>
 									<li className={navStyles.hiddenItem}> <Link activeClass={navStyles.active} to="resumeSection" spy={true} smooth={true} offset={this.props.fixed ? 0 : -180} duration= {500} onClick={this.onClick}>Resume</Link> </li>
 									<li className={navStyles.hiddenItem}> <Link activeClass={navStyles.active} to="aboutSection" spy={true} smooth={true} offset={this.props.fixed ? 0 : -180} duration= {500} onClick={this.onClick}>About</Link> </li>
-									<li className={navStyles.hiddenItem} style={{paddingBottom: "25px"}}> <Link activeClass={navStyles.active} to="contactSection" spy={true} smooth={true} offset={this.props.fixed ? 0 : -180} duration= {500} onClick={this.onClick}>Contact</Link> </li>
+									<li className={navStyles.hiddenItem}> <Link activeClass={navStyles.active} to="contactSection" spy={true} smooth={true} offset={this.props.fixed ? 0 : -180} duration= {500} onClick={this.onClick}>Contact</Link> </li>
 								</ul>
 							</div>	
 					</nav>
