@@ -76,7 +76,7 @@ class Contact extends React.Component {
 
 	render(){
 		return (
-			<div id={this.props.id} className={contactStyles.container}>
+			<main id={this.props.id} className={contactStyles.container}>
 				<Header name={'CONTACT'} />
 				<Fade right delay={500}>
 					<h3>Want to get in touch or work together?</h3>
@@ -85,8 +85,8 @@ class Contact extends React.Component {
 				<Fade bottom fraction={0.4}>
 					<form method='post' action="https://harry-parkinson.prod.with-datafire.io/contact" onSubmit={ this.formSubmit } >
 						<div className={contactStyles.form}>
-							<input name="name" id="nameInput" type="text" placeholder="Your name"/>
-							<input name="emailAddress" id="emailInput" type="text" placeholder="Your e-mail"/>
+							<input className={contactStyles.input} name="name" id="nameInput" type="text" placeholder="Your name"/>
+							<input className={contactStyles.input} name="emailAddress" id="emailInput" type="text" placeholder="Your e-mail"/>
 							<textarea name="message" id="messageInput" cols="30" rows="10" placeholder="Your message"></textarea>
 							<div className={contactStyles.submitWrapper}>
 								<input className={contactStyles.submit} type="submit" value="SUBMIT"/>
@@ -95,7 +95,7 @@ class Contact extends React.Component {
 					</form>
 				</Fade>
 				
-			</div>
+			</main>
 			
 		)
 	}

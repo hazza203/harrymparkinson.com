@@ -7,7 +7,7 @@ import infoStyles from './InfoSection.module.scss'
 const InfoSection = (props) => {
 
 	return (
-		<div className={infoStyles.container}>
+		<section id="Trait" className={infoStyles.container}>
 			<Flip left duration={1500} fraction={1}>
 				<img src={props.img} alt={props.imgAlt}/>
 			</Flip>
@@ -18,7 +18,7 @@ const InfoSection = (props) => {
 				<p>{props.content}</p>
 			</Fade>
 			
-		</div>
+		</section>
 	)
 }
 

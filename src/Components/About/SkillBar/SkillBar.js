@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 
 const SkillBar = (props) => {
 	return (
-		<div className={skillStyles.skillBar}>
+		<section id="Skills" className={skillStyles.skillBar}>
 			<div className={skillStyles.name}>
 			{props.name}
 			</div>
@@ -19,7 +19,7 @@ const SkillBar = (props) => {
 				{props.percentage}
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

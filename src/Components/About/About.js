@@ -15,10 +15,10 @@ import aboutStyles from './About.module.scss'
 const About = (props) => {
 
 	return (
-		<div id={props.id} className={aboutStyles.container} style={props.fixed ? {paddingTop: "162px"} : null}>
+		<main id={props.id} className={aboutStyles.container} >
 			<Header name={'ABOUT'} />
 
-			<div className={aboutStyles.traits}>
+			<section id="Traits" className={aboutStyles.traits}>
 				<InfoSection img={problem} alt='Problem solving icon' header='Problem Solving' content=
 				"Problem solver at heart, collaborating with others to come to a solution is my passion."/>
 
@@ -30,8 +30,8 @@ const About = (props) => {
 
 				<InfoSection img={intuitive} alt='User experience icon' header='Design' content=
 				"Develop UI's which are easy to use, intuitive and display information in a neat and interesting style."/>
-			</div>
-			<div className={aboutStyles.info}>
+			</section>
+			<section id="information" className={aboutStyles.info}>
 				<Fade left duration={1000} fraction={0.5}>
 					<div className={aboutStyles.personal}>	
 					 <Bio/>
@@ -50,8 +50,8 @@ const About = (props) => {
 					</div>
 				</Fade>
 				
-			</div>	
-		</div>	
+			</section>	
+		</main>	
 	)
 	
 	

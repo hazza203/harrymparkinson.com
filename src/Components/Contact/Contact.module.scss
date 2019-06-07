@@ -10,6 +10,7 @@
 	color: white;
 	padding: 100px 5%;
 	border-top: 1px dotted var(--color-2);
+  border-bottom: 1px dotted var(--color-1);
   animation-fill-mode: backwards !important;
   -webkit-animation-fill-mode: backwards !important;
 
@@ -95,6 +96,22 @@ form {
     background-color: transparent;
     transition: all 0.6s;
   }
+  .submit:hover{
+      outline: none !important;
+      border:1px solid white;
+      box-shadow: 1px 1px 5px white;
+  }
+
+}
+.input:focus{
+  outline: none !important;
+  border:1px solid var(--color-1);
+  box-shadow: 1px 1px 15px var(--color-1);
+}
+textarea:focus{
+  outline: none !important;
+  border:1px solid var(--color-1);
+  box-shadow: 1px 1px 15px var(--color-1);
 }
 
 .submit:hover{
