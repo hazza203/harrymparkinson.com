@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddf6e14bdf2fc3929c6e43b4f160a5a6",
+    "revision": "9cb1c3e067cc03d1cac9bc5b57ea9e5c",
     "url": "/index.html"
   },
   {
-    "revision": "20fd7723bc0adac28eb9",
-    "url": "/static/css/2.89666679.chunk.css"
+    "revision": "01f10a8c9d9d5c47383d",
+    "url": "/static/css/2.f65ab6ef.chunk.css"
   },
   {
-    "revision": "ad3b668409e0a9959e4a",
-    "url": "/static/css/main.87024cfc.chunk.css"
+    "revision": "1386fb586d3f02eae27a",
+    "url": "/static/css/main.6097157e.chunk.css"
   },
   {
-    "revision": "20fd7723bc0adac28eb9",
-    "url": "/static/js/2.a9cb5642.chunk.js"
+    "revision": "01f10a8c9d9d5c47383d",
+    "url": "/static/js/2.500adb87.chunk.js"
   },
   {
-    "revision": "ad3b668409e0a9959e4a",
-    "url": "/static/js/main.e6e8aee3.chunk.js"
+    "revision": "1386fb586d3f02eae27a",
+    "url": "/static/js/main.8e33e507.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "ce96b40697b3675ed0affbb5479831f4",
+    "url": "/static/media/Harry_Resume.ce96b406.pdf"
   },
   {
     "revision": "7ec9633e70affd37c429d769dc925db9",
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea875326d6985530db1c15b58824d315",
     "url": "/static/media/profilepic.ea875326.jpg"
+  },
+  {
+    "revision": "8453bb9fdd59008a6a153b5b63cba85f",
+    "url": "/static/media/resume.8453bb9f.png"
   },
   {
     "revision": "77df835c153f068be9ad334cccbcfc57",
