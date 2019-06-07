@@ -8,7 +8,7 @@ import Zoom from 'react-reveal/Zoom';
 const Resume = (props) => {
 	return (
 		<main id={props.id} className={resumeStyles.container} >
-			<Header name={'Resume'}/>
+			<Header name={'RESUME'}/>
 				<a className={resumeStyles.link} href={pdf} target="_blank" rel="noopener noreferrer">
 					<Zoom left>
 						<img className={resumeStyles.resumePreview} src={resumePreview} alt="Preview of my resume"/>
