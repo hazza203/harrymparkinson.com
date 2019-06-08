@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-scroll";
 import welcomeStyles from './Welcome.module.scss'
 import RightArrow from 'Images/right-arrow.png'
+import pdf from './Harry_Resume.pdf'
 
 class Welcome extends React.Component {
 
@@ -44,15 +45,21 @@ class Welcome extends React.Component {
 					<h1 className={`${welcomeStyles.csstyping} ${welcomeStyles.csstyping2}`}> I'M HARRY PARKINSON.</h1>
 					<h1 className={`${welcomeStyles.csstyping} ${welcomeStyles.csstyping3}`}> SOFTWARE / WEB DEVELOPER. </h1>	
 					<div className={welcomeStyles.buttonWrapper}>
-					<div className={welcomeStyles.button}>
-					 <Link className={welcomeStyles.link} to="portfolioSection" spy={true} smooth={true} offset={0} duration= {500}>
-						Find out more
-						<img src={RightArrow} alt="Direction arrow"/>
-					 </Link>
-						
+						<div className={welcomeStyles.button}>
+						 <Link className={welcomeStyles.link} to="portfolioSection" spy={true} smooth={true} offset={0} duration= {500}>
+							View my projects
+							<img src={RightArrow} alt="Direction arrow"/>
+						 </Link>
+						</div>
 					</div>
-
-				</div>
+					<div className={welcomeStyles.buttonWrapper}>
+						<div className={welcomeStyles.button}>
+						 <a className={welcomeStyles.link} href={pdf} target="_blank" rel="noopener noreferrer">
+							Download my resume
+							<img src={RightArrow} alt="Direction arrow"/>
+						 </a>
+						</div>
+					</div>
 				</div>  
 			</header>
 		)

@@ -5,7 +5,6 @@ import Portfolio from './Components/Portfolio/Portfolio.js'
 import Contact from './Components/Contact/Contact.js'
 import Nav from './Components/Nav/Nav.js'
 import Footer from './Components/Footer/Footer.js'
-import Resume from './Components/Resume/Resume.js'
 import appStyles from './App.module.scss';
 import Particles from 'react-particles-js'
 import { particleOptions } from './particleOptions.js'
@@ -53,7 +52,6 @@ class App extends React.Component {
 	      <Welcome id='homeSection'/>
 	      <Nav fixed={this.state.fixed}/>
 	      <Portfolio id='portfolioSection' fixed={this.state.fixed}/>
-	      <Resume id='resumeSection'/>
 	      <About id='aboutSection' fixed={this.state.fixed}/>
 	      <Contact id='contactSection' />
 				<Footer />
