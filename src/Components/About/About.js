@@ -2,6 +2,7 @@ import React from 'react'
 import Header from 'Components/Header/Header.js'
 import InfoSection from './InfoSection/InfoSection.js'
 import SkillBar from './SkillBar/SkillBar.js'
+import Skills from './Skills/Skills.js'
 import Bio from './Bio/Bio.js'
 import Fade from 'react-reveal/Fade'
 
@@ -37,18 +38,17 @@ const About = (props) => {
 					 <Bio/>
 					</div>
 				</Fade>
-				<Fade right duration={1000} fraction={0.5}>
 					<div className={aboutStyles.skills}>
-						<SkillBar name={"Javascript"} value={{width:'80%'}} remainder={{width:'20%'}} percentage={"80%"}/>
+						<Skills/>
+						{/*<SkillBar name={"Javascript"} value={{width:'80%'}} remainder={{width:'20%'}} percentage={"80%"}/>
 						<SkillBar name={"Node.js"} value={{width:'70%'}} remainder={{width:'30%'}} percentage={"70%"}/>
 						<SkillBar name={"React.js"} value={{width:'80%'}} remainder={{width:'20%'}} percentage={"80%"}/>
 						<SkillBar name={"Java"} value={{width:'80%'}} remainder={{width:'20%'}} percentage={"80%"}/>
 						<SkillBar name={"CSS"} value={{width:'60%'}} remainder={{width:'40%'}} percentage={"60%"}/>
 						<SkillBar name={"Python"} value={{width:'50%'}} remainder={{width:'50%'}} percentage={"50%"}/>
 						<SkillBar name={"C"} value={{width:'40%'}} remainder={{width:'60%'}} percentage={"40%"}/>
-						<SkillBar name={"SQL"} value={{width:'65%'}} remainder={{width:'35%'}} percentage={"65%"}/>
+						<SkillBar name={"SQL"} value={{width:'65%'}} remainder={{width:'35%'}} percentage={"65%"}/>*/}
 					</div>
-				</Fade>
 				
 			</section>	
 		</main>	

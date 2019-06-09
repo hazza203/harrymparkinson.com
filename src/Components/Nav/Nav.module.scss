@@ -44,6 +44,9 @@
 }
 
 .social{
+	@media screen and (max-width: 800px){
+		visibility: hidden;
+	}
 	display: inline;
 	float: right;
 	vertical-align: middle;

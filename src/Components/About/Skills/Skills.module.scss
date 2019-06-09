@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	img {
+		margin: 15px 30px;
+		height: 100px;
+		width: auto;
+		border-radius: 10px;
+	}
+}
+
+section {
+	h2{
+		font-family: var(--header-font);
+		color: var(--color-2);
+		text-shadow: 1px 1px 15px var(--color-1);
+		text-align: center;
+	}
+}
