@@ -55,16 +55,15 @@
 	line-height: 60px;
 	span {
 		cursor: pointer;
-		transition: all 0.6s ease;
 		background-color: var(--secondary-background-color);
 		padding: 7.5px;	
 		padding-top: 14px;
 		padding-bottom: 14px;
 		margin: 15px;
 		margin-bottom: 15px;
-		background-color: var(--color-2);
+		border: 1px solid var(--color-1);
 		border-radius: 50px;
-		box-shadow: 1px 1px 10px var(--color-1);
+		box-shadow: 1px 1px 10px var(--color-2);
 		img {
 			height: 25px;
 			width: 25px;
@@ -72,8 +71,8 @@
 		}
 	}
 	span:hover {
-		box-shadow: 1px 1px 15px var(--color-2);
-		background-color: var(--color-1);
+		box-shadow: 1px 1px 15px var(--color-1);
+		border: 1px solid var(--color-2);
 	}
 }
 
