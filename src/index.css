@@ -12,6 +12,8 @@ html {
   --gradient: linear-gradient(to right, #00ff00 0%,#28ffde 50%,#ff00ff 100%);
   overflow-x: hidden;
   font-size: 0.8em;
+  --vh: 100%;
+  --vw: 100%;
 }
 
 body {

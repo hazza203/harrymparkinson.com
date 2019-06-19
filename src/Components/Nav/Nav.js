@@ -20,7 +20,7 @@ class Nav extends React.Component {
 				zIndex: 999
 			},
 			showMenu: {
-				'height': '0px'
+				'height': '0px',
 			}
 	  }
 	  this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
