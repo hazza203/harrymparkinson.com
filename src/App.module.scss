@@ -2,6 +2,10 @@
   overflow-x: hidden;
 }
 
+:root {
+  --text: #ffffff;
+}
+
 .particles {
   position: fixed;
   background-color: var(--background-color);	

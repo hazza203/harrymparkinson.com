@@ -1,6 +1,6 @@
 @font-face { font-family: ocrA; src: url('OCR A Std Regular.ttf'); } 
 
-html {
+html, body {
 	--main-font: 'Montserrat', sans-serif;
   --header-font: 'ocrA', sans-serif;
   --background-color: #1b1b1b;

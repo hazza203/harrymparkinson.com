@@ -43,7 +43,10 @@ class App extends React.Component {
 		}
 	}
 
+
+
 	render() {
+		console.log(window.getComputedStyle(document.documentElement).getPropertyValue('--main-font'))
 		return (
 	    <div className={appStyles.app}>
 	    	{/* Load particles third party background, view file particleOptions.js for config*/}
