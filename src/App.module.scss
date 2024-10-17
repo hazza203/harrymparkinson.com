@@ -4,11 +4,12 @@
 
 :root {
   --text: #ffffff;
+  font-size: 16px;
 }
 
 .particles {
   position: fixed;
-  background-color: var(--background-color);	
+  background-color: var(--background-color);
   top: 0;
   right: 0;
   bottom: 0;
@@ -17,5 +18,4 @@
   margin: 0;
   max-width: 100vw;
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
-}	
+}
